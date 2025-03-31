@@ -1,0 +1,116 @@
+html {
+    background-color: rgb(241, 241, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;   
+    color: rgb(93, 92, 92);
+    padding: 20px;
+    width: 80%;
+    background-image: url('img/background/background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.menu
+{
+    font-size: 1.5rem;
+    margin-bottom: 80px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: bold;   
+    color: rgb(23, 72, 145);
+    margin-right: 20px;
+
+}
+
+.menu a:hover{
+    color: rgb(22, 122, 245);
+}
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 0.8rem;
+    text-transform:lowercase;
+    margin-top: 40px;
+}
+ a{
+    text-decoration: none;
+    font-weight: bold;   
+    color: #04abfe;
+ }
+
+ a:hover {
+    color: #184e96;
+}
+ul li {
+    list-style-image: url(src/point.png);
+    margin-bottom: 20px;
+
+}
+.whatToDo {
+    font-style: italic;    
+    color:rgb(45, 45, 45)
+}
+.custom-font{
+    text-transform: uppercase;
+    color: #2056df;
+    font-weight: bolder;
+}
+.custom-font1 {
+    font-size: 1rem;
+    text-transform:capitalize;
+    color: #2056df;
+    font-weight: bolder;
+}
+
+.podcast-link {
+    font-size: 0.8em;
+}
+.gallery img{
+    width: 200px;
+}
+form {
+    border: 2px solid #184e96;
+    padding: 15px;
+}
+
+input[type=submit] {
+    border-radius: 8px;
+    background-color: #184e96;
+    border: none;
+    color: #ffffff;
+    width: 100px;
+    height: 30px;
+
+}
+
+input[type=text], input[type=email] {
+    border-radius: 5px;
+    height: 25px;
+    border: 1px solid gray;
+    margin-right: 20px;
+}
+
+select {
+    border-radius: 5px;
+    height: 25px;
+    border: 1px solid gray;
+    margin-right: 20px;
+    width: 200px;
+}
+
+textarea {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.689);
+   
+}
+
+.test-button {
+    width: 200px !important;
+}

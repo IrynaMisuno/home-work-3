@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="../styles.css">
+   <title>CLS - Test</title>
+</head>
+
+<body>
+    <div id="menu" class="menu"> 
+        <a href="../index.html">Home</a>&nbsp;&nbsp;
+        <a href="languages.html">Languages</a>&nbsp;&nbsp;
+        <a href="about.html">About</a>&nbsp;&nbsp;
+        <a href="gallery.html">Gallery</a>&nbsp;&nbsp;
+        <a href="contact.html">Contact</a>&nbsp;&nbsp;
+    </div>
+
+    <h1>Ready for the test?</h1>
+   
+    <p class="whatToDo"> Please answer all the questions and press the ‘Send’ button</p>
+
+    
+<p><form action="sended.html" method="post">
+
+    <p><strong>1. If you could get on a plane tomorrow, where would you go?</strong></p>
+    
+    <label>
+        <input type="radio" name="travel" value="spa" required> Some hot country
+    </label><p></p>
+    
+    <label>
+        <input type="radio" name="travel" value="ukr"> Some cold country
+    </label><p></p>
+    
+    <label>
+        <input type="radio" name="travel" value="ger"> Multicultural country
+    </label><p></p>
+
+
+    <p><strong>2. What would you choose to eat?</strong></p>
+    
+    <label>
+        <input type="radio" name="food" value="spa" required> Paella
+    </label><p></p>
+    
+    <label>
+        <input type="radio" name="food" value="ukr"> Borsch
+    </label><p></p>
+    
+    <label>
+        <input type="radio" name="food" value="ger"> Pretzel
+    </label><p></p>
+
+    <p><strong>3.Is the simplicity of the language important to you?</strong></p>
+    
+    <label>
+        <input type="radio" name="language" value="Y" required> Yes
+    </label><p></p>
+    
+    <label>
+        <input type="radio" name="language" value="N"> No
+    </label><p></p>
+    
+    
+    <p></p>
+
+    <p><strong>4.Would you learn a new alphabet?</strong></p>
+    
+    <label>
+        <input type="radio" name="alphabet" value="Y" required> Yes
+    </label><p></p>
+    
+    <label>
+        <input type="radio" name="alphabet" value="N"> No
+    </label><p></p>
+    
+    <p></p>
+
+
+    <p><strong>5. You are</strong></p>
+    <select name="age" required>
+        <option value="" selected>Select your answer</option>
+        <option value="under">Under 18</option>
+        <option value="over">Over 18</option>
+        <option value="unk">Prefer not to say</option>
+    </select>
+    <p><br></p>
+
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required/>
+    <p><br></p>
+    <input type="submit" value="Send me the results" class="test-button">
+    
+  </form>
+</p>
+</body>
+</html>
